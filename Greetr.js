@@ -128,6 +128,8 @@
 		self.lastname = lastname || "";
 		self.language = language || "en";
 
+		self.validate();
+
 	};
 
 	// Any object created with this function point to Greetr.init so it has 
