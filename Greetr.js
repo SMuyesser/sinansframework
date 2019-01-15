@@ -1,4 +1,4 @@
-(function(global, $) {
+;(function(global, $) {
 
 	// 'new' an object
 	// G$ points to this greetr function which returns a new Greetr.init
@@ -128,7 +128,7 @@
 		self.lastname = lastname || "";
 		self.language = language || "en";
 
-		self.validate();
+		self.validateLang();
 
 	};
 
